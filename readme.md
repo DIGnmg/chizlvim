@@ -1,5 +1,5 @@
-# HankChizlJaw's Vim Setup
-
+# DIGnmg's Vim Setup
+*This repo is a fork! Thanks to [hankchizljaw](hankchizljaw/chizlvim)*
 Here's how to setup Vim how I personally like it:
 
 1. Make a directory for Vim stuff by running `mkdir ~/.vim`
