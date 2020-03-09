@@ -141,6 +141,12 @@ au BufRead,BufNewFile *.php inoremap <buffer> <C-j> :call PhpDoc()<CR>
 au BufRead,BufNewFile *.php nnoremap <buffer> <C-j> :call PhpDoc()<CR>
 au BufRead,BufNewFile *.php vnoremap <buffer> <C-j> :call PhpDocRange()<CR>
 
+" Better Window Navigation
+nmap <silent> <c-h> :wincmd h<CR>
+nmap <silent> <c-j> :wincmd j<CR>
+nmap <silent> <c-k> :wincmd k<CR>
+nmap <silent> <c-l> :wincmd l<CR>
+
 " NERDCommenter 
 let g:NERDSpaceDelims = 1
 let g:NERDCompactSexyComs = 1
